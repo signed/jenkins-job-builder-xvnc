@@ -1,7 +1,10 @@
 build/
+dist/
+AUTHORS
 *.egg-info/
 *.iml
 *.ipr
 *.iws
 .idea/
 *.pyc
+ChangeLog
