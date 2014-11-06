@@ -1,6 +1,7 @@
 - job:
     name: sample
     project-type: freestyle
+    node: doesnotexist
     wrappers:
         - xvnc:
             take-screenshot-upon-build-completion : false
