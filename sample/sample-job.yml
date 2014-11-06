@@ -1,6 +1,7 @@
 - job:
     name: sample
     project-type: freestyle
+    jdk: jdk8u25
     node: doesnotexist
     wrappers:
         - xvnc:
