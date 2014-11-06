@@ -23,7 +23,7 @@ echo "Cleaning repo with git clean -dxf"
 git clean -dxf
 
 echo "Running python setup.py sdist upload ..."
-PBR_VERSION=$version_num python setup.py sdist register  upload
+PBR_VERSION=$version_num python setup.py sdist upload
 
 echo "Tagging HEAD commit with ${version_num}."
 git tag $version_num HEAD
